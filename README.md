@@ -1,1 +1,1 @@
-# solution-for-50-days-of-SQL-by-codedanm
+50-days-of-SQL-by-Codedanm
