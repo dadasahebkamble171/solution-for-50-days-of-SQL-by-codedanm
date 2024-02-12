@@ -1,0 +1,1 @@
+SELECT Customer.FirstName, count(Invoice. InvoiceId) as InvoiceCount FROM 'Customer' JOIN 'Invoice' on customer.CustomerId=Invoice.CustomerId group by customer.CustomerId order by InvoiceCount DESC LIMIT 5 ;
